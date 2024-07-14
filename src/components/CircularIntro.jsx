@@ -16,12 +16,12 @@ const CircularIntro = () => {
     return <Loading />;
   }
   return (
-    <div className="intro-container bg-[#000000]">
+    <div className="intro-container bg-[#e79303]">
       <motion.div
         className="circle"
         initial={{ scale: 0 }}
         animate={{ scale: 20 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 3 }}
       />
     </div>
   );

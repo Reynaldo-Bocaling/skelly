@@ -36,7 +36,22 @@ const Hero = () => {
 
         <img
           src="/img/float2.png"
-          className="absolute w-[500px] top-12 -left-56 scale-x-[-1] "
+          className="absolute w-[500px] -top-36 left-[-40%] md:-left-64 scale-x-[-1] "
+          alt=""
+        />
+        <img
+          src="/img/treesWbat.png"
+          className="absolute w-[700px] -bottom-12 -left-12 opacity-[0.04] "
+          alt=""
+        />
+        <img
+          src="/img/trees.png"
+          className="absolute w-[700px] -bottom-12 -right-40 opacity-[0.04] "
+          alt=""
+        />
+        <img
+          src="/img/trees.png"
+          className="absolute w-[400px] -bottom-12 -left-40 opacity-[0.04] "
           alt=""
         />
         <div className="flexAround ">

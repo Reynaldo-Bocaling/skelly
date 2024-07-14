@@ -28,7 +28,7 @@ html {
 
 body {
     font-size: calc(1rem * var(--bfso, 1));
-    background: #000000;
+    background: #df6b06;
 }
 
 
@@ -81,15 +81,15 @@ body {
     background-repeat: no-repeat;
 }
 
-#howtobuy {
-    background: url('/img/howtobuy3.jpg');
+/* #howtobuy {
+    background: url('/img/howtobuy4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 #about {
-    background: url('/img/about_bg.jpg');
+    background: url('/img/about_bg-2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body {
 .moon {
 
     border-radius: 50%;
-    background: radial-gradient(circle at 30% 30%, #e99b0b, #bf7e04, #ff8b06);
+    background: radial-gradient(circle at 30% 30%, #fdb124, #dd9104, #ff8b06);
     position: relative;
     box-shadow:
         -10px -10px 20px rgba(249, 239, 226, 0.2),
@@ -157,18 +157,18 @@ body {
 .halloween-button {
     font-family: 'Creepster', cursive;
 
-    color: #ff6a00;
+    color: #8c00ff;
     background-color: #000;
-    border: 2px solid #ff0000;
+    border: 2px solid #b300ff;
     padding: 10px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+    text-shadow: 0 0 10px #b700ff, 0 0 20px #d400ff, 0 0 30px #ff0000, 0 0 40px #ff0000;
 }
 
 .halloween-button:hover {
     color: #000;
-    background-color: #ff0000;
+    background-color: #8c00ff;
     border: 2px solid #000;
     text-shadow: none;
 }
@@ -196,10 +196,21 @@ body {
 
 
 .blur_effect {
-    background: rgba(27, 27, 27, 0.15);
-    backdrop-filter: blur(7px);
+    background: rgba(3, 3, 3, 0.4);
+    backdrop-filter: blur(12px);
 }
 
+.neon-text {
+    color: #9404dc;
+    text-shadow:
+        /* 0 0 5px #7700ff, */
+        /* 0 0 10px #8b00ff */
+        0 0 20px #a985f7;
+    -webkit-text-stroke: 1px #efc5ff;
+    /* White stroke for WebKit browsers */
+    text-stroke: 1px #ff8c00;
+
+}
 
 
 @media (max-width: 767px) {

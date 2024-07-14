@@ -7,7 +7,7 @@ import CircularIntro from "./CircularIntro";
 
 const Loading = () => {
   return (
-    <div id="loader" className=" w-full  h-full fixed z-[999]  flexColCenter">
+    <div className=" w-full  h-full fixed z-[999] bg-[#e79303] flexColCenter">
       <div className=" w-[600px] h-[600px] flexColCenter relative ">
         <div className="w-full relative z-[99] flexColCenter -translate-y-32">
           <h1 className="title absoslute top-4 text-9xl z-[998]">$SKELLY</h1>
