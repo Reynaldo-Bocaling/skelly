@@ -11,11 +11,7 @@ import Moon2 from "./Moon2";
 const Hero2 = () => {
   return (
     <Section id="hero2" variant="">
-      <motion.div
-        animate={{ opacity: [0, 1] }}
-        transition={{ duration: 0.9 }}
-        className="h-[800px] relative w-full overflow-y-hidden"
-      >
+      <div className="h-[800px] relative w-full overflow-y-hidden">
         <Moon2 />
 
         <Lottie
@@ -53,7 +49,7 @@ const Hero2 = () => {
           <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
           <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
         </div> */}
-      </motion.div>
+      </div>
     </Section>
   );
 };
