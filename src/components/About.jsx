@@ -21,7 +21,9 @@ const About = () => {
             caring grandmother.
           </p>
         </div>
-        <button className="halloween-button mt-4 mb-1 ">Buy Now</button>
+        <button className="halloween-button mt-7 text-[5rem] md:text-[2rem]">
+          Buy Now
+        </button>
       </div>
       <img
         src="/img/banner.jpg"
