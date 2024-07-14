@@ -7,9 +7,9 @@ import Social from "./Social";
 const HowToBuy = () => {
   return (
     <div id="howtobuy" className="relative w-full flexColCenter min-h-[65q0px]">
-      <div className="flexColCenter absolute bottom-1/3 right-[9%] blur_effect mx-auto max-w-[70%] md:max-w-3xl w-full mt-5 px-7 py-10 rounded-xl border-[3px]  border-[rgba(247,90,76,0.5)]">
-        <h1 className="title neon-text text-[8rem] md:text-3xl flexCenter mb-12">
-          How To Buy Sa Mainnet{" "}
+      <div className="flexColCenter absolute bottom-1/3 right-[5%] md:right-[9%] blur_effect mx-auto w-[50%] md:max-w-3xl md:w-full mt-5 px-7 py-10 rounded-xl border-[3px]  border-[rgba(247,90,76,0.5)]">
+        <h1 className="title neon-text text-[5rem] md:text-3xl flexCenter mb-12">
+          SKELENOMICS
         </h1>
         <div className="flexAround w-full md:gap-8">
           {howtobuy.map((item, index) => (

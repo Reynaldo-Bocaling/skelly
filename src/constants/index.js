@@ -41,6 +41,6 @@ export const howtobuy = [
   },
   {
     name: "CONTRACT",
-    value: "ANNOUNCED",
+    value: "RENNOUNCED",
   },
 ];
