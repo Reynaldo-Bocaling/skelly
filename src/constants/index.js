@@ -28,16 +28,24 @@ export const social = [
 
 export const howtobuy = [
   {
-    name: "TAX",
-    value: "0/0",
+    name: "ticker",
+    value: "skelly",
   },
   {
     name: "SUPPLY",
     value: "1,000,000,000",
   },
   {
-    name: "LIQUIDITY",
-    value: "LOCKED",
+    name: "CHAIN",
+    value: "ETHEREUM",
+  },
+  {
+    name: "TAX",
+    value: "0/0",
+  },
+  {
+    name: "LP",
+    value: "BURNT",
   },
   {
     name: "CONTRACT",

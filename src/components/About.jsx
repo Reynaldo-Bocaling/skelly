@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="relative min-h-[570px] md:min-h-[880px] w-full flexColCenter"
+      className="relative min-h-[450px] md:min-h-[880px] w-full flexColCenter"
     >
       <SlidingText />
       <h1 className="title neon-text absolute top-52 left-1/2 -translate-x-1/2  text-[7rem] md:text-6xl flexCenter ">

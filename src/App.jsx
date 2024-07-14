@@ -7,6 +7,7 @@ import CircularIntro from "./components/CircularIntro";
 import Hero2 from "./components/Hero2";
 import HowToBuy from "./components/HowToBuy";
 import Social from "./components/Social";
+import Skelenomics from "./components/Skelenomics";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,6 +26,7 @@ const App = () => {
     <div className="relative overflow-hidden">
       <Hero />
       <About />
+      <Skelenomics />
       <HowToBuy />
       <Social />
     </div>

@@ -1,43 +1,50 @@
 import React from "react";
-import { howtobuy } from "../constants";
-import bats from "../assets/json-animations/bat1.json";
 import squash from "../assets/json-animations/squash.json";
 import Lottie from "lottie-react";
-import Social from "./Social";
 const HowToBuy = () => {
   return (
-    <div id="howtobuy" className="relative w-full flexColCenter min-h-[65q0px]">
-      <div className="flexColCenter absolute bottom-1/3 right-[5%] md:right-[9%] blur_effect mx-auto w-[50%] md:max-w-3xl md:w-full mt-5 px-7 py-10 rounded-xl border-[3px]  border-[rgba(247,90,76,0.5)]">
-        <h1 className="title neon-text text-[5rem] md:text-3xl flexCenter mb-12">
-          SKELENOMICS
-        </h1>
-        <div className="flexAround w-full md:gap-8">
-          {howtobuy.map((item, index) => (
-            <div key={index} className="flexColCenter">
-              <h1 className="extra_text text-[6rem] md:text-5xl font-bold text-[#f13423]">
-                {item.value}
-              </h1>
-              <span className="extra_text text-white tracking-wider text-[4rem] md:text-2xl font-bold">
-                {item.name}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-      <img src="/img/howtobuy4.jpg" alt="" className="w-full" />
-
-      <Lottie
-        animationData={bats}
-        className="w-[200px] absolute top-20 right-20 "
-      />
-      <Lottie
-        animationData={bats}
-        className="w-[150px] absolute -top-7 left-7 "
-      />
+    <div id="roadmap" className="relative w-full  bg-black">
       <img
-        src="/img/banner.jpg"
+        src="/img/roadmap2.png"
         alt=""
-        className="max-w-[90rem] md:max-w-3xl  absolute bottom-0 right-[9%]  rounded-lg"
+        className="try h-[700px] md:h-[900px] w-full "
+      />
+
+      <div className="absolute bottom-1/3 left-20">
+        <h1 className="extra_text neon-red text-[6rem] md:text-5xl flexCenter mb-7">
+          Create a Wallet Preferably <br />
+          Matamask
+        </h1>
+        <p className="neon-text extra_text text-[4rem] md:text-lg font-bold">
+          Download and create a wallet <br /> on Metamask
+        </p>
+      </div>
+
+      <div className="absolute bottom-1/2 right-7">
+        <h1 className="extra_text neon-red text-[6rem] md:text-5xl flexCenter mb-7">
+          Get Some $Eth
+        </h1>
+        <p className="neon-text extra_text text-[4rem] md:text-lg font-bold">
+          Buy or transfer from your <br /> favorite Exchange.
+        </p>
+      </div>
+
+      <div className="absolute top-60 md:top-32 left-[10%] md:left-1/4 md:-translate-x-12">
+        <h1 className="extra_text neon-red text-[6rem] md:text-5xl flexCenter mb-7">
+          Swap on Uniswap.
+        </h1>
+        <p className="neon-text extra_text text-[4rem] md:text-lg font-bold">
+          Head over to Uniswap and swap your <br /> $ETH to $SKELLY.
+        </p>
+      </div>
+      <div className="absolute top-60 md:top-32 right-1/4 translate-x-20 md:translate-x-12">
+        <h1 className="extra_text neon-red text-[6rem] md:text-5xl flexCenter mb-7">
+          Congrats, Youre now a <br /> $SKELLY holder
+        </h1>
+      </div>
+      <Lottie
+        animationData={squash}
+        className="w-[150px] md:w-[250px]  absolute top-[14%] -right-28 md:top-28 md:-right-5"
       />
       <div className="flexEnd  absolute -bottom-5 left-0 w-full z-[98]">
         <img src="/img/floor1.png" className="w-full h-[300px]" alt="" />

@@ -76,6 +76,11 @@ const Hero = () => {
           <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
           <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
         </div>
+        <div className="flexEnd  absolute -bottom-5 left-0 w-full z-[98]">
+          <img src="/img/floor1.png" className="w-full h-[300px]" alt="" />
+          <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
+          <img src="/img/floor2.png" className="w-full h-[300px]" alt="" />
+        </div>
       </motion.div>
     </Section>
   );

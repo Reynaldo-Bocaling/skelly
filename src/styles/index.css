@@ -102,6 +102,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#roadmap {
+    background: url('/img/loader_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #hero::after {
     content: '';
     position: absolute;
@@ -209,6 +216,18 @@ body {
     -webkit-text-stroke: 1px #efc5ff;
     /* White stroke for WebKit browsers */
     text-stroke: 1px #ff8c00;
+
+}
+
+.neon-red {
+    color: #dc0404;
+    text-shadow:
+        /* 0 0 5px #7700ff, */
+        /* 0 0 10px #8b00ff */
+        0 0 20px #f79885;
+    -webkit-text-stroke: 1px #ffc5c5;
+    /* White stroke for WebKit browsers */
+    text-stroke: 1px #ff0000;
 
 }
 

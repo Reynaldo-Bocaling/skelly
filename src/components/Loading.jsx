@@ -10,7 +10,9 @@ const Loading = () => {
     <div className=" w-full  h-full fixed z-[999] bg-[#e79303] flexColCenter">
       <div className=" w-[600px] h-[600px] flexColCenter relative ">
         <div className="w-full relative z-[99] flexColCenter -translate-y-32">
-          <h1 className="title absoslute top-4 text-9xl z-[998]">$SKELLY</h1>
+          <h1 className="title neon-text  text-[16rem] md:text-9xl z-[998]">
+            $SKELLY
+          </h1>
           <h2 className="extra_text text-4xl font-bold text-[#221503] mt-12">
             A MATT FURIE ORIGINAL
           </h2>

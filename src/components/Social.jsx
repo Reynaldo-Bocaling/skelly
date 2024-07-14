@@ -3,7 +3,7 @@ import { social } from "../constants";
 
 const Social = () => {
   return (
-    <div className="relative z-[999] w-full bg-black -mt-3">
+    <div className="relative z-[999] w-full bg-black ">
       <div className=" py-6 px-12 md:px-5 flexAround w-full  md:max-w-3xl mx-auto ">
         {social.map((item, index) => (
           <a
