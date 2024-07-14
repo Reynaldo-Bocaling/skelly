@@ -25,3 +25,22 @@ export const social = [
     url: "https://pancakeswap.finance/swap?outputCurrency=0x6eB6e8974264BeE01c160F1770a38f8e6dE1a3B1",
   },
 ];
+
+export const howtobuy = [
+  {
+    name: "TAX",
+    value: "0/0",
+  },
+  {
+    name: "SUPPLY",
+    value: "1,000,000,000",
+  },
+  {
+    name: "LIQUIDITY",
+    value: "LOCKED",
+  },
+  {
+    name: "CONTRACT",
+    value: "ANNOUNCED",
+  },
+];

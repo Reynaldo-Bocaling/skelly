@@ -81,6 +81,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#howtobuy {
+    background: url('/img/howtobuy3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #about {
     background: url('/img/about_bg.jpg');
     background-size: cover;

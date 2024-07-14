@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Loading from "./components/Loading";
 import CircularIntro from "./components/CircularIntro";
 import Hero2 from "./components/Hero2";
+import HowToBuy from "./components/HowToBuy";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,7 +24,7 @@ const App = () => {
     <div className="relative overflow-hidden">
       <Hero2 />
       <About />
-      {/* <Footer /> */}
+      <HowToBuy />
     </div>
   );
 };
