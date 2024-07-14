@@ -7,7 +7,10 @@ import Social from "./Social";
 
 const About = () => {
   return (
-    <div id="about" className="relative min-h-[780px] w-full flexColCenter">
+    <div
+      id="about"
+      className="relative min-h-[620px] md:min-h-[780px] w-full flexColCenter"
+    >
       <SlidingText />
       <div className="flexColCenter blur_effect mx-auto max-w-[70%] md:max-w-5xl w-full mt-5 px-7 py-10 rounded-xl border-[3px]  border-[rgba(247,90,76,0.5)]">
         <h1 className="title text-[#f13423] text-[8rem] md:text-6xl flexCenter">
