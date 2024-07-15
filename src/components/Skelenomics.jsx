@@ -12,6 +12,11 @@ const Skelenomics = () => {
         alt=""
         className="w-full h-[490px] md:h-[550px]"
       />
+      <img
+        src="/img/skelenomics_float.jpg"
+        className="absolute top-0 max-w-[70%] left-1/2 -translate-x-1/2"
+        alt=""
+      />
 
       <Lottie
         animationData={bats}
@@ -22,7 +27,7 @@ const Skelenomics = () => {
         className="w-[150px] absolute -top-7 left-7 "
       />
       <div className="flexColCenter absolute left-1/2 -translate-x-1/2 top-1/4 -translate-y-20 w-full">
-        <h1 className="  extra_text neon-red text-[12rem] md:text-9xl flexCenter mb-12">
+        <h1 className="  extra_text neon-red text-[14rem] md:text-9xl flexCenter mb-12">
           SKELENOMICS
         </h1>
 

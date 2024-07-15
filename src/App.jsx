@@ -27,9 +27,7 @@ const App = () => {
     <div className="relative overflow-hidden">
       <Hero />
       <About />
-
       <HowToBuy />
-
       <Skelenomics />
       <Banner />
       <Social />
