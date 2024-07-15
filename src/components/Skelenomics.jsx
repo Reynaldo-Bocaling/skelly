@@ -33,10 +33,10 @@ const Skelenomics = () => {
             className="relative flexCenter -bottom-14 w-full h-[250px] "
           >
             <div className="absolute top-1/2 -translate-y-20 md:-translate-y-0 md:top-10 flexColCenter z-[98]">
-              <h1 className="extra_text text-[4rem] md:text-3xl font-bold text-[#f13423]">
+              <h1 className="skele_title extra_text text-[4rem] md:text-3xl font-bold text-[#f13423]">
                 {item.value}
               </h1>
-              <span className="extra_text text-white tracking-wider text-[4rem] md:text-2xl font-bold">
+              <span className="skele_extra extra_text text-white tracking-wider text-[4rem] md:text-2xl font-bold">
                 {item.name}
               </span>
             </div>

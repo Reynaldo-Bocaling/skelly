@@ -235,11 +235,37 @@ body {
 @media (max-width: 767px) {
     body {
         zoom: 50%;
+
     }
+
+
+
 }
 
 @media (max-width: 967px) {
     body {
         zoom: 50%;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (-min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3) {
+    .road_title {
+        font-size: 3rem !important;
+    }
+
+    .road_extra {
+        font-size: 3.2rem !important;
+    }
+
+    .skele_title {
+        font-size: 3rem !important;
+    }
+
+    .skele_extra {
+        font-size: 3rem !important;
     }
 }
