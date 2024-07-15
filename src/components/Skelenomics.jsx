@@ -13,7 +13,7 @@ const Skelenomics = () => {
         className="w-full h-[490px] md:h-[550px]"
       />
       <img
-        src="/img/skelenomics_float.jpg"
+        src="/img/skelenomics_header.png"
         className="absolute top-0 max-w-[70%] left-1/2 -translate-x-1/2"
         alt=""
       />
