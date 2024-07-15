@@ -8,6 +8,7 @@ import Hero2 from "./components/Hero2";
 import HowToBuy from "./components/HowToBuy";
 import Social from "./components/Social";
 import Skelenomics from "./components/Skelenomics";
+import Banner from "./components/Banner";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,8 +27,11 @@ const App = () => {
     <div className="relative overflow-hidden">
       <Hero />
       <About />
-      <Skelenomics />
+
       <HowToBuy />
+
+      <Skelenomics />
+      <Banner />
       <Social />
     </div>
   );
