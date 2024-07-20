@@ -13,7 +13,7 @@ const Hero = () => {
       <motion.div
         animate={{ opacity: [0, 1] }}
         transition={{ duration: 0.9 }}
-        className="h-[800px] relative w-full overflow-y-hidden"
+        className="h-[800px] relative w-full overflow-hidden"
       >
         <Moon />
         <img

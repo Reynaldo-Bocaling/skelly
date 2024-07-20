@@ -20,9 +20,9 @@ export const social = [
     url: "",
   },
   {
-    label: "pancakeSwap",
+    label: "dextool",
     icon: dextool,
-    url: "",
+    url: "https://www.dextools.io/app/en/ether/pair-explorer/0xac9f4e593701c6bfba58df988018917d09445ada?t=1721441402785",
   },
 ];
 
